@@ -5,11 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--CSS-->
+
     <link href="style.css" rel="stylesheet" />
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>BlogSpace</title>
   </head>
   <body>
-    <div id="blogpost"></div>
+    <header>
+      <nav>
+        <h3>BlogSpace</h3>
+      </nav>
+      <form>
+        <label for="post-title">Title</label>
+        <input id="post-title" type="text" />
+
+        <label for="post-body">Body</label>
+        <textarea id="post-body"></textarea>
+
+        <button class="post-container" type="submit">Post</button>
+      </form>
+
+      <!-- 
+        Challenge:
+        
+        Create a form with 2 inputs (each with an associated label), 
+        one for the post title (a text input) and one for the post body
+        (a textarea element). Then add a button to the form. 
+        
+        Don't worry about styling quite yet.
+         -->
+    </header>
+
+    <main>
+      <section>
+        <div id="blogpost"></div>
+      </section>
+    </main>
+
     <script src="index.js"></script>
   </body>
 </html>

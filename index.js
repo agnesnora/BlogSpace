@@ -24,7 +24,8 @@ fetch("https://apis.scrimba.com/jsonplaceholder/posts")
     postsArr.forEach(function (post) {
       html += `
                         <h2>${post.title}</h2> 
-                        <p>${post.body}</p>`;
+                        <p>${post.body}</p>
+                        <hr>`;
     });
     document.getElementById("blogpost").innerHTML = html;
   });
