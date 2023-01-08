@@ -41,5 +41,6 @@ document.getElementById("new-post").addEventListener("submit", function (e) {
     .then((newPost) => {
       postsArr.unshift(newPost);
       renderPosts();
+      document.getElementById("new-post").reset();
     });
 });
