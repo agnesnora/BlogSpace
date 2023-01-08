@@ -12,7 +12,7 @@ nav {
   text-align: center;
   background-color: #d9d9d9;
   padding: 30px;
-  color: #729599;
+  color: #145753;
   font-weight: 700;
   margin: 0;
   position: fixed;
@@ -23,10 +23,11 @@ h3 {
 }
 
 form {
-  padding: 120px 10px 10px;
+  padding: 130px 10px 30px;
   display: grid;
   flex-direction: column;
   align-items: center;
+  background-color: #e6dfd9;
 }
 
 #blogpost {
@@ -35,8 +36,7 @@ form {
 }
 
 button {
-  margin-top: 10px;
-  padding: 18px 9px;
+  padding: 12px 9px;
   border: none;
   border-radius: 10px;
   text-align: center;
@@ -45,17 +45,20 @@ button {
   font-weight: 600;
   font-size: 1.2em;
 
-  background-color: #7a7067;
+  background-color: #002729;
 }
 
 button:hover,
 button:focus {
-  background-color: #e6dfd9;
+  background-color: #575757;
   color: #729599;
 }
 
 input {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+}
+textarea {
+  margin-bottom: 12px;
 }
 
 label {
@@ -71,4 +74,9 @@ h2 {
 
 p {
   color: #594827;
+}
+
+label {
+  font-weight: 700;
+  color: #7e8c69;
 }
